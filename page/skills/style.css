@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* reset style */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: goldenrod;
+  font-family: "Roboto", sans-serif;
+}
+
+/* style navbar */
+.nav {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin: 0 10px;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+ul li a {
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+ul li a:hover {
+  background-color: goldenrod;
+  color: #fff;
+}
+
+/* skill start*/
+
+.skillcontainer {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+}
+.skillcontainer h3 {
+  color: black;
+  font-size: 2em;
+}
+.skillcontainer .skillcard {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.skillcontainer .skillcard .card {
+  width: 110px;
+  height: 140px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  background-color: #434345;
+  padding: 20px;
+  margin: 25px;
+  box-shadow: -8px 8px 5px #1a1a1a;
+}
+.skillcontainer .skillcard .card .skillpict {
+  width: 100%;
+}
+.skillcontainer .skillcard .card .skillteks {
+  color: #e8e8ef;
+  font-size: large;
+  font-weight: 500;
+}
+/* skill end */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+}
